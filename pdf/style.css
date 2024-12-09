@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.inputarea {
+  margin: 5rem 0 1rem 0rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.inputarea_other {
+  margin: 0 auto;
+}
+
+#rangeselector {
+  margin-left: 2rem;
+}
+
+#pdfFrame {
+  border-style: none;
+  width: 60%;
+  height: 80vh;
+  position: relative;
+  /* top: 30rem; */
+  left: 25%;
+  /* transform: translate(-50%, -40%); */
+}
+
+button {
+  margin: 0 0 0 0.5rem;
+}
